@@ -43,5 +43,6 @@ class Project:
         Args:
             employee (Employee): The employee to be assigned to the project.
         """
-        if employee in self.employees:
-            self.employees.append((project_id, employee))
+        for employee in self.employees:
+            if employee.emp_id == employee:
+                self.employees.append(self.project_id, employee)
